@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url(img1.png);
+    background-size: cover;
+}
+.container{
+    display: grid;
+    height: 60vh;
+    place-items: left;
+    margin-top: 7vw;
+    margin-left: 14vw;
+}
+.content{
+    width: 350px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+.btns1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.btns1 button{
+    text-align: center;
+    color: black;
+    border-radius: 100px;
+    font-size: larger;
+}
+
+.igual{
+    grid-row-end: span 2;
+}
+.screen{
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: end;
+    grid-column-start: auto;
+    grid-column-end: span 4;
+    color: whitesmoke;
+}
+.green{
+    background-color:rgb(54,237,170);
+    transition:all .5s ease-in-out;
+}
+.green:hover{
+    background: rgb(0, 184, 190);
+    color: whitesmoke;
+}
+.orangered{
+    background-color: rgb(255,74,11);
+    transition:all .5s ease-in-out;
+}
+.orangered:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+.yellow{
+    background-color: rgb(254,216,55);
+    transition:all .5s ease-in-out;
+}
+.yellow:hover{
+    background-color:  rgb(255, 166, 0);
+    color: whitesmoke;
+}
+.blue{
+    background-color: rgb(51, 255, 0);
+    transition:all .5s ease-in-out;
+}
+.blue:hover{
+    background-color: rgb(123, 255, 0);
+}
