@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: url(liquido-de-color-abstracto_2560x1440_xtrafondos.com.jpg);
+    background: cover;
+    color: white;
+}
+title{
+    color: white;
+}
+h1{
+    font-family: 'Croissant One', sans-serif;
+    background: none;
+}
+span{
+    font-size: 4rem;
+    background: none;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50, -50);
+    white-space: pre-line;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+}
+.boxbtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+}
+button{
+    width: 5vw;
+    height: 1.5vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: none;
+}
+button:hover{
+    transition: 2s;
+    background-color: black;
+    color: white;
+}
